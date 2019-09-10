@@ -1,0 +1,53 @@
+<script type='text/javascript'>
+ $(function() {
+   Dashing.gridsterLayout('[{"col":3,"row":1,"size_x":2,"size_y":1},{"col":1,"row":1,"size_x":2,"size_y":1},{"col":6,"row":1,"size_x":1,"size_y":1},{"col":5,"row":1,"size_x":1,"size_y":1},{"col":1,"row":2,"size_x":1,"size_y":1},{"col":2,"row":2,"size_x":1,"size_y":1},{"col":3,"row":2,"size_x":1,"size_y":1},{"col":4,"row":2,"size_x":1,"size_y":1},{"col":6,"row":2,"size_x":1,"size_y":1},{"col":5,"row":2,"size_x":1,"size_y":1}]')
+ });
+ </script>
+
+<% content_for :title do %>Workplace Energy Consumption<% end %>
+
+<div class="gridster">
+  <ul>
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="welcome" data-view="Text" data-title="Welcome to your:" data-text="Workplace Energy Consumption Dashboard." data-moreinfo="Tip: Manoeuvre the widgets to your liking!"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-view="Clock" style="background-color:#404040;"></div>
+      <i class="fa fa-clock-o icon-background"></i>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+	    <div data-view="Image" data-image="/oracle.png" style="background-color:#FFFFFF;"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="oci_tenant" data-view="Text" data-title="Tenant Name" data-text="Wolf359" data-moreinfo="Dublin, Ireland"  style="background-color:#E15C19;"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="voltage" data-view="Meter" data-moreinfo="Unit: V(olts)" data-title="Voltage" data-min="0" data-max="1000" style="background-color:#64B3F4;"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="current" data-view="Meter" data-moreinfo="Unit: A(mps)" data-title="Current" data-min="0" data-max="0.5" style="background-color:#64B3F4;"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="power" data-view="Meter" data-moreinfo="Unit: W(atts)" data-title="Power" data-min="0" data-max="100" style="background-color:#64B3F4;"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="location" data-view="Text" data-title="Device Location:" data-text="Lat: 53.3     Lon: -6.2" data-moreinfo="Dublin, Ireland"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="cost" data-view="Meter" data-title="Average Electricity Costs:" data-moreinfo="Of Device Since Powered On" data-prefix="€"data-min="0" data-max="100" ></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="onSince" data-view="Meter" data-title="Device 'On' Since: " data-moreinfo="Since Most Recent Power On" data-min="0" data-max="100" ></div>
+    </li>
+
+  </ul>
+</div>
