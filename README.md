@@ -33,7 +33,7 @@ Reducing Energy Consumption in the Workplace through the integration of AI and r
    - With the help of the Smashing Dashboard repository (https://github.com/AnykeyNL/oci-smashing), we had to ability to create a  dashboard via HTML. (#image above#)
    - It stores information regarding the consumption data of the device via the help of the 'consumer.py' script I will soon discuss in more detail.
    - We have the ability to update the 'workplace-energy-consumption.erb' file which simply gives us the ability to modify the layout and content displayed of the dashboard. This file is stored on a remote server unlike the rest of files provided above which are stored locally.
-   - The 'smashing.py' file is an integral script which allows us to associate a URL to the dashboard so we can access it through our browser (#image above#)
+   - The 'smashing.py' file is an integral script which allows us to associate a URL to the dashboard so we can access it through our browser. (#image above#)
 5. Producing Stream
    - A 'producer.py' script extracts the data from the smart plug. 
    - Information relating to the current connected device alike power, current, voltage, runtime etc with the help of this repository        (https://github.com/GadgetReactor/pyHS100). 
