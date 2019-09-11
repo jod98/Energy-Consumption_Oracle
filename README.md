@@ -1,6 +1,6 @@
 # Energy-Consumption_Oracle
 
-#### Welcome,
+#### Welcome
 
 #### This repository will provide you with an insight into my ability to code with 'Python' through a project I worked on during the time of my internship here in Oracle Dublin as a Solution Engineer.
 
