@@ -30,7 +30,8 @@ Reducing Energy Consumption in the Workplace through the integration of AI and r
    - The plug is connected to the wall socket and a device of our choosing is then connected to the plug.
    - The HS110 is configured (connected to the Wi-Fi) through the 'Kasa' app available on both the 'Play Store' and 'App Store'.
 4. Smashing Dashboard:
-   - With the help of the Smashing Dashboard repository (https://github.com/AnykeyNL/oci-smashing), we had to ability to create a  dashboard via HTML. (#image above#)
+   - With the help of the Smashing Dashboard repository (https://smashing.github.io), we had to ability to create a  dashboard via HTML. (#image above#)
+   - This repository helped me to update the dashboard and add widgets etc. (https://github.com/AnykeyNL/oci-smashing)
    - It stores information regarding the consumption data of the device via the help of the 'consumer.py' script I will soon discuss in more detail.
    - We have the ability to update the 'workplace-energy-consumption.erb' file which simply gives us the ability to modify the layout and content displayed on the dashboard. This file is stored on a remote server unlike the rest of the files provided above, which are stored locally.
    - The 'smashing.py' file is the script which allows us to associate a URL to the dashboard so we can access it through our browser. (#image above#)
