@@ -2,7 +2,7 @@
 
 #### A project initiated by an Oracle co-worker and I based around the concept of reducing energy consumption in the workplace with the use of IOT, AI and real-time data diagnostics. This investigation helped me to better understand some of the more well renowned products and services Oracle offer while applying my flair for programming. A dashboard was created which displays the real-time data inserted into our database. Throughout this project I was exposed to the SSH protocol, streaming data via Oracle cloud, programming in Python, updating a database with real-time statistics using the SQL Developer application etc. 
 
-Video Demonstration of Project: https://bit.ly/2lN4n6i
+#### Video Demonstration of Project: https://bit.ly/2lN4n6i
 
 ![4d94500617bf4979d1099ce63b058b19](https://user-images.githubusercontent.com/36043248/64624320-67db3680-d3e2-11e9-9f16-ebc9d183f2cc.png)
 
